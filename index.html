@@ -205,26 +205,6 @@
 
 
 
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container"> -->
-      <!-- Paper video. -->
-      <!-- <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video"> -->
-            <!-- Youtube embed code here -->
-            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End youtube video -->
-
 
 <!-- Video carousel -->
 <!-- <section class="hero is-small">
@@ -278,40 +258,375 @@
   </section> -->
 <!--End paper poster -->
 
+<!-- Simulation Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Simulation</h2>
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+    <!-- Method 1 -->
+    <div class="simulation-method">
+      <h3 class="title is-4">Ours: CADRE</h3>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_ndf_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_ndf_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_ndf_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_ndf_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
-</section>
-<!--End BibTex citation -->
 
+    <!-- Method 2 -->
+    <div class="simulation-method">
+      <h3 class="title is-4">Baseline: Pose</h3>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_pose_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_pose_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_pose_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_pose_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
 
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+    <!-- Repeat for Methods 3 and 4 -->
+    <div class="simulation-method">
+      <h3 class="title is-4">Baseline: PointCloud</h3>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_pointcloud_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_pointcloud_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_pointcloud_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_pointcloud_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    <div class="simulation-method">
+      <h3 class="title is-4">Baseline: DexPoint</h3>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_dexpoint_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_dexpoint_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_dexpoint_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_dexpoint_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
+          </figure>
         </div>
       </div>
     </div>
   </div>
-</footer>
+</section>
+<!-- Hardware Experiment Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Hardware Experiment</h2>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+    <!-- Method 1 -->
+    <div class="method-section">
+      <h3 class="title is-4">CADRE</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/cadre_slow.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1/8x</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/cadre_realtime.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1x</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
 
-    <!-- End of Statcounter Code -->
+    <!-- Method 2 -->
+    <div class="method-section">
+      <h3 class="title is-4">Pose</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/pose_slow.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1/8x</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/pose_realtime.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1x</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
 
-  </body>
-  </html>
+    <!-- Method 3 -->
+    <div class="method-section">
+      <h3 class="title is-4">Point Cloud</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/pointcloud_slow.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1/8x</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/pointcloud_realtime.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1x</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Method 4 -->
+    <div class="method-section">
+      <h3 class="title is-4">Dexpoint</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/dexpoint_slow.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1/8x</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="video-container">
+            <video class="small-video" controls>
+              <source src="static/videos/dexpoint_realtime.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">1x</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Screwdriver Turning Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Subsequent Screwdriver Turning</h2>
+
+    <!-- Method 1 -->
+    <div class="method-section">
+      <h3 class="title is-4">Ours: CADRE</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="image-container">
+            <img class="small-image" src="static/images/screwdriver turning/ndf_103.png" alt="Final Catching State - CADRE">
+            <figcaption class="has-text-centered">Final Catching State</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="gif-container">
+            <img src="static/images/screwdriver turning/ndf_103.gif" alt="Subsequent Screwdriver Turning - CADRE">
+            <figcaption class="has-text-centered">Subsequent Screwdriver Turning</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Method 2 -->
+    <div class="method-section">
+      <h3 class="title is-4">Method 2: Pose</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="image-container">
+            <img class="small-image" src="static/images/screwdriver turning/pose_103.png" alt="Final Catching State - Pose">
+            <figcaption class="has-text-centered">Final Catching State</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="gif-container">
+            <img src="static/images/screwdriver turning/pose_103.gif" alt="Subsequent Screwdriver Turning - Pose">
+            <figcaption class="has-text-centered">Subsequent Screwdriver Turning</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Method 3 -->
+    <div class="method-section">
+      <h3 class="title is-4">Method 3: PointCloud</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="image-container">
+            <img class="small-image" src="static/images/screwdriver turning/pc_103.png" alt="Final Catching State - PointCloud">
+            <figcaption class="has-text-centered">Final Catching State</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="gif-container">
+            <img src="static/images/screwdriver turning/pc_103.gif" alt="Subsequent Screwdriver Turning - PointCloud">
+            <figcaption class="has-text-centered">Subsequent Screwdriver Turning</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Method 4 -->
+    <div class="method-section">
+      <h3 class="title is-4">Method 4: DexPoint</h3>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="image-container">
+            <img class="small-image" src="static/images/screwdriver turning/dexpoint_103.png" alt="Final Catching State - DexPoint">
+            <figcaption class="has-text-centered">Final Catching State</figcaption>
+          </figure>
+        </div>
+        <div class="column is-half">
+          <figure class="gif-container">
+            <img src="static/images/screwdriver turning/dexpoint_103.gif" alt="Subsequent Turning - DexPoint">
+            <figcaption class="has-text-centered">Subsequent Screwdriver Turning</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BibTex citation
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Bib -->
