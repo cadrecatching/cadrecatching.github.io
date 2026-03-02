@@ -133,5 +133,17 @@ body {
   font-size: smaller;
 }
 
+.small-video {
+  width: 50%; /* Reduce the width to half */
+  display: block;
+  margin: 0 auto; /* Center the video */
+}
+
+.small-image {
+  width: 50%; /* Reduce the width to half */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
 
 
