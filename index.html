@@ -307,49 +307,6 @@
       </div>
     </div>
 
-    <!-- Method 2 -->
-    <div class="simulation-method">
-      <h3 class="title is-4">Baseline: Pose</h3>
-      <div class="columns is-centered">
-        <div class="column is-one-quarter">
-          <figure class="video-container">
-            <video controls>
-              <source src="static/videos/sim_videos/screwdriver_pose_id.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
-          </figure>
-        </div>
-        <div class="column is-one-quarter">
-          <figure class="video-container">
-            <video controls>
-              <source src="static/videos/sim_videos/screwdriver_pose_ood.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
-          </figure>
-        </div>
-        <div class="column is-one-quarter">
-          <figure class="video-container">
-            <video controls>
-              <source src="static/videos/sim_videos/nut_pose_id.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
-          </figure>
-        </div>
-        <div class="column is-one-quarter">
-          <figure class="video-container">
-            <video controls>
-              <source src="static/videos/sim_videos/nut_pose_ood.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-
     <!-- Repeat for Methods 3 and 4 -->
     <div class="simulation-method">
       <h3 class="title is-4">Baseline: PointCloud</h3>
@@ -434,6 +391,135 @@
         </div>
       </div>
     </div>
+
+    <div class="simulation-method">
+      <h3 class="title is-4">Baseline: CADRE-EBM</h3>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_ndf_w_ebm_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_ndf_w_ebm_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_ndf_w_ebm_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_ndf_w_ebm_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Method 4 -->
+    <div class="simulation-method">
+      <h3 class="title is-4">Ablation: CADRE-No NDF</h3>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_pose_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_pose_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_pose_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_pose_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="simulation-method">
+      <h3 class="title is-4">Ablation: CADRE-No IRA</h3>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_ndf_wo_classifier_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/screwdriver_ndf_wo_classifier_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Screwdriver Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_ndf_wo_classifier_id.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut In-Distribution</figcaption>
+          </figure>
+        </div>
+        <div class="column is-one-quarter">
+          <figure class="video-container">
+            <video controls>
+              <source src="static/videos/sim_videos/nut_ndf_wo_classifier_ood.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="has-text-centered">Nut Out-of-Distribution</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    
   </div>
 </section>
 <!-- Hardware Experiment Section -->
